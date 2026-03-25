@@ -11,7 +11,7 @@ async def start_test():
     Prefect flow that retrieves the ENVIRONMENT environment variable and logs it.
     """
     logger = get_run_logger()
-    logger.info("Starting environment variable test flow 123 ABC")
+    logger.info("Starting environment variable test flow 789 XYZ")
     
     environment = os.getenv("ENVIRONMENT")
     
